@@ -7,7 +7,7 @@ int coinCntr(int coinVal, int coinCount, int *change2); //initializes the functi
 int main(void) {
     int coinCount=0;
     float change;
-    printf("I'm a change calculator!\nI calculate the minimum nessecary number of coins to make change\n");
+    printf("I'm a change calculator!\nI calculate the minimum necessary number of coins to make change\n");
     do {
         printf("How much change is needed? ");
         change= GetFloat();
